@@ -25,7 +25,9 @@ CHARSETS = {
 	'utf-8': 'utf-8',
 	'utf-8-bom': 'utf-8 with bom',
 	'utf-16be': 'utf-16 be',
-	'utf-16le': 'utf-16 le'
+	'utf-16le': 'utf-16 le',
+
+	'cp1251': 'Cyrillic (Windows 1251)'
 }
 
 class EditorConfig(sublime_plugin.EventListener):
